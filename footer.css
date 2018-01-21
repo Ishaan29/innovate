@@ -7,7 +7,7 @@ height: 110px;
 width: 100%;
 color: white;
 text-align: center;
-opacity: 1;
+opacity: 0.9;
 background-color: rgba(0,0,0,0.6);
 
 }
@@ -19,11 +19,6 @@ div a {
 }
 
 .fa.fa-facebook {
-  padding-left:500px;
+  padding-left: 600px;
 
-}
-
-
-body {
-  background: black;
 }
