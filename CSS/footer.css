@@ -1,0 +1,23 @@
+.footer {
+background: transparent;
+position: fixed;
+left: 35%;
+bottom: 0;
+height: 110px;
+width: 100%;
+color: black;
+text-align: center;
+/* opacity: 0.9; */
+/* background-color: rgba(0,0,0,0.6); */
+/* background: transparent; */
+}
+div a {
+  float: left;
+  margin: 25px 1px 10px 70px;
+
+
+}
+
+body {
+  background-color: blue ;
+}
