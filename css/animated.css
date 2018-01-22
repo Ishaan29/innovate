@@ -12,7 +12,11 @@ body.ready {
 .logo-animation {
   display: flex;
   align-items: center;
+
+  padding-top: 50px;
+
   padding-top: 82px;
+
   justify-content: center;
   width: 100%;
   margin-top: relative;
