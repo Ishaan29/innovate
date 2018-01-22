@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* -----------------------------------------------
 /* Author : Vincent Garreau  - vincentgarreau.com
 /* MIT license: http://opensource.org/licenses/MIT
@@ -1577,3 +1578,5 @@ window.particlesJS.load = function(tag_id, path_config_json, callback){
   xhr.send();
 
 };
+=======
+>>>>>>> 0ef5a59760754ad2a84a172affde1d80e9a61d50
