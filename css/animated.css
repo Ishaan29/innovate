@@ -37,6 +37,8 @@ body.ready {
   padding-right: 10px;
   transform-origin: 100% 50%;
 }
+
+#.st0{fill:#18FF92;}
 .dot {
   position: absolute;
   width: 42px;
