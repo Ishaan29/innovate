@@ -28,6 +28,18 @@ logoTimeline
   offset: 0
 })
 .add({
+  targets: '.t-bar',
+  
+  translateY: { value: [-200, 0], duration: 500, elasticity: 400 },
+  translateX:{value: [-200, -242], duration: 500, elasticity: 400},
+  scale: [
+    { value: [0, 1], duration: 100, easing: 'easeOutQuart' },
+    { value: 0, duration: 400, delay: 1400, easing: 'easeInBack' }
+  ],
+  delay: 1200,
+  offset: 0
+})
+.add({
 targets: '.dot-i',
 translateY: { value: [-200, 0], duration: 500, elasticity: 400 },
 translateX:{value: [-200, -242], duration: 500, elasticity: 400},

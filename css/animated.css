@@ -12,7 +12,11 @@ body.ready {
 .logo-animation {
   display: flex;
   align-items: center;
+
   padding-top: 50px;
+
+  padding-top: 82px;
+
   justify-content: center;
   width: 100%;
   margin-top: relative;
@@ -37,6 +41,8 @@ body.ready {
   padding-right: 10px;
   transform-origin: 100% 50%;
 }
+
+#.st0{fill:#18FF92;}
 .dot {
   position: absolute;
   width: 42px;
