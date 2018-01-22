@@ -12,6 +12,7 @@ body.ready {
 .logo-animation {
   display: flex;
   align-items: center;
+  padding-top: 260px;
   justify-content: center;
   width: 100%;
   margin-top: relative;
@@ -28,11 +29,12 @@ body.ready {
   height: 162px;
 }
 .letter:not(:first-child) {
-  margin-left: -42px;
+  margin-left: -35px;
 }
 .letter-i {
   z-index: 1;
   width: 82px;
+  padding-right: 10px;
   transform-origin: 100% 50%;
 }
 .dot {
