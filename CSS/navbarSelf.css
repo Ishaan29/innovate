@@ -1,7 +1,4 @@
-/* body {
-	background-color:black;
-	margin: 0;
-} */
+
 .nav ul {
 	/* padding-top: 500px; */
 	margin:0;
@@ -10,7 +7,7 @@
 }
 
 ul:first-child {
-	padding-left: 320px;
+	padding-left: 370px;
 }
 .nav li {
 	float: left;
@@ -26,12 +23,12 @@ margin-right: 35px;
 }
 
 .nav a {
-width: 120px;
+width: 80px;
 color: white;
 display:block;
 text-decoration: none;
 font-size: 18px;
-text-align:left;
+align-content: center;
 padding: 6px;
 /* padding-bottom: 10px; */
 border-radius: 10px;
