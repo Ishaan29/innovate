@@ -10,33 +10,35 @@
 }
 
 ul:first-child {
-	padding-left: 300px;
+	padding-left: 320px;
 }
 .nav li {
 	float: left;
 	margin-top: 50px;
 	border-left: 1px solid white;
 	border-right: 1px solid white;
-	border-bottom: 1px solid white;
-	border-top: 1px solid white;
-
-	border-radius: 8px;
+	/* border-bottom: 1px solid white; */
+	/* border-top: 1px solid white; */
+margin-right: 35px;
+/* border: 0.4px solid white; */
+	border-radius: 12px;
 
 }
 
 .nav a {
-width: 150px;
+width: 120px;
 color: white;
-display: block;
+display:block;
 text-decoration: none;
-font-size: 20px;
+font-size: 18px;
 text-align:left;
-padding: 10px;
+padding: 6px;
 /* padding-bottom: 10px; */
 border-radius: 10px;
 font-weight: bold;
 /* margin: 30px; */
 }
+
 
 .nav {
 	width: 100%;
