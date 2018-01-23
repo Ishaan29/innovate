@@ -33,7 +33,7 @@ body.ready {
   height: 162px;
 }
 .letter:not(:first-child) {
-  margin-left: -35px;
+  margin-left: -30px;
 }
 .letter-i {
   z-index: 1;
@@ -42,7 +42,7 @@ body.ready {
   transform-origin: 100% 50%;
 }
 
-#.st0{fill:#18FF92;}
+
 .dot {
   position: absolute;
   width: 42px;

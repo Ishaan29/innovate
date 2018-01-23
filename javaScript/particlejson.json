@@ -95,6 +95,7 @@ particlesJS('particles-js',
           "opacity": 8,
           "speed": 3
         },
+        
         "repulse": {
           "distance": 200
         },

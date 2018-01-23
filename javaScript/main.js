@@ -29,7 +29,7 @@ logoTimeline
 })
 .add({
   targets: '.t-bar',
-  
+
   translateY: { value: [-200, 0], duration: 500, elasticity: 400 },
   translateX:{value: [-200, -242], duration: 500, elasticity: 400},
   scale: [
