@@ -225,5 +225,10 @@ var logoAnimation = (function() {
 
 window.onload = function() {
   logoAnimation.init();
-  fireworks.setCanvasSize();
+
 }
+var btn = document.getElementById("info");
+
+btn.addEventListener("click", function(){
+   $("#button blue").remove();
+});
