@@ -182,34 +182,7 @@ var logoAnimation = (function() {
       },
       offset: '-=250'
     })
-    .add({
-      targets: '.version',
-      innerHTML: parseFloat(anime.version, 10),
-      duration: 2500,
-      easing: 'easeOutCubic',
-      begin: function(a) { a.animatables[0].target.classList.add('highlighted'); },
-      update: function(a) {
-        var value = a.animatables[0].target.innerHTML;
-        value = parseFloat(value).toFixed(1);
-        a.animatables[0].target.innerHTML = value;
-      },
-      complete: function(a) { a.animatables[0].target.classList.remove('highlighted'); },
-      offset: '-=500'
-    })
-    .add({
-      targets: '.date',
-      innerHTML: function() {
-        var d = new Date();
-        return d.getFullYear();
-      },
-      round: 1,
-      duration: 2500,
-      easing: 'easeOutCubic',
-      begin: function(a) { a.animatables[0].target.classList.add('highlighted'); },
-      complete: function(a) { a.animatables[0].target.classList.remove('highlighted'); },
-      offset: '-=2000'
-    })
-
+    
 
   function init() {
     document.body.classList.add('ready');
@@ -228,7 +201,3 @@ window.onload = function() {
 
 }
 var btn = document.getElementById("info");
-
-btn.addEventListener("click", function(){
-   $("#button blue").remove();
-});
