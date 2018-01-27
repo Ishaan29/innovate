@@ -1,9 +1,45 @@
+var createBouncyButtons = (function() {
+    function createButton(el) {
+        var pathEl = el.querySelector('path');
+        var spanEl = el.querySelector('span');
+        function hover() {
+            anime.remove([pathEl, spanEl]);
+            anime({
+                targets: pathEl,
+                d: 'M10,10 C10,10 50,7 90,7 C130,7 170,10 170,10 C170,10 172,20 172,30 C172,40 170,50 170,50 C170,50 130,53 90,53 C50,53 10,50 10,50 C10,50 8,40 8,30 C8,20 10,10 10,10 Z',
+                elasticity: 700,
+                offset: 0
+            });
+            anime({
+                targets: spanEl,
+                scale: 1.15,
+                duration: 800,
+                offset: 0
+            });
+        }
+        f
+        }
+        el.onmouseenter = hover;
+
+    }
+    var buttonEls = document.querySelectorAll('.button');
+
+   for (var i = 0; i < buttonEls.length; i++) {
+       var el = buttonEls[i];
+       createButton(el);
+   }
+
+}
+)();
+
+
 var logoEl = document.querySelector('.logo-animation');
 var pathEls = document.querySelectorAll('.logo-animation path:not(.icon-curve)');
 var innerWidth = window.innerWidth;
 var maxWidth = 740;
 var logoScale = innerWidth <= maxWidth ? innerWidth / maxWidth : 1;
 var logoTimeline = anime.timeline();
+
 
 logoEl.style.transform = 'translateY(50px) scale('+logoScale+')';
 
@@ -18,6 +54,7 @@ logoTimeline
   translateX: [
     { value: -600, duration: 520, delay: 200, easing: 'easeInQuart' },
     { value: [-100, 0], duration: 500, delay: 1000, easing: 'easeOutQuart' }
+
   ],
   scale: [
     { value: [0, 1], duration: 200, easing: 'easeOutBack' },
@@ -134,3 +171,5 @@ offset: 0
   delay: function(el, i, t) { return 4200 + ( i * 20 ); },
   offset: 0
 });
+
+console.log("working");
