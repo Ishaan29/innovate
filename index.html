@@ -7,13 +7,19 @@
     <link rel="stylesheet" href="CSS/animated.css">
     <link rel="stylesheet" href="CSS/footer.css">
     <link rel="stylesheet" href="CSS/navbarSelf.css">
-<link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type = "text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Innovate</title>
   </head>
 
   <body>
+
+    <div id="particles-js">
+        <canvas class="particles-js-canvas-el" width="3360" height="1102" style="width: 100%; height: 100%;"></canvas>
+    </div>
 
 
     <div class="container">
@@ -104,10 +110,10 @@
         <g fill="none" fill-rule="evenodd" stroke="#5E89FB">
           <!-- <path class=" fill in" stroke-width="2" d="M1.4,15.4l25-14l54,97c2,3,4,0,4,0l51-95l24,13l-75,140c-2,5-6-3-6-3L1.4,15.4z"/> -->
           <path class="line out" stroke-width="4" d="M2.7,22.7l35-20l43,74c3,9,6,0,6,0l43-74l35,20c0,0-73,126-77,133s-8,0-8,0L2.7,22.7z"/>
-          <path class="line out" stroke-width="4" d="M2.7,19.7l-20l43,74c3,9,6,0,6,0l43-74l35,20c0,0-73,126-77,133s-8,0-8,0L2.7,22.7z"/>
+
           <path class="fill in" stroke-width="50" d="M18,8.1c0,0,53,106.3,58,116.8s10,0,10,0l61-116.8"/>
             <path class="fill out" stroke-width="50" d="M18,8.1c0,0,53,106.3,58,116.8s10,0,10,0l61-116.8"/>
-</svg>
+
         </g>
       </svg>
     </div>
@@ -224,24 +230,12 @@
   </div>
 </section>
 
-<div class="nav">
-<ul>
-	<li><a href="#">Home</a></li>
-	<li><a href="#">Events</a></li>
-
-	<li><a href="#">about us</a></li>
-	<li><a href="#">Sign up <i class="fa fa-user-plus" aria-hidden="true"></i></a></li>
-</ul>
-</div>
 
 
 
 
-  <div id="particles-js">
-      <canvas class="particles-js-canvas-el" width="3360" height="1102" style="width: 100%; height: 100%;"></canvas>
-  </div>
 
-      <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
       <script>
       $(document).ready(function() {
         $('#particles-js').hide().delay(3000).fadeIn(2200);
@@ -265,13 +259,54 @@
     $('.footer').hide().delay(4100).fadeIn(2200);
   });
   </script>
+  <div class="info" id ="info">
+
+      <div class="links">
+        <a class =" button green" href="#" target="_blank" style="opacity: 1 transform: translateY(0px) scale(1);">
+          <svg viewBox ="0 0 180 60">
+              <path d="M10,10 C10,10 50,9.98999977 90,9.98999977 C130,9.98999977 170,10 170,10 C170,10 170.009995,20 170.009995,30 C170.009995,40 170,50 170,50 C170,50 130,50.0099983 90,50.0099983 C50,50.0099983 10,50 10,50 C10,50 9.98999977,40 9.98999977,30 C9.98999977,20 10,10 10,10 Z"></path>
+          </svg>
+          <span style="transform: scale(1);">aboutus</span>
+        </a>
+        <a class =" button blue" href="#" target="_blank" style="opacity: 1 transform: translateY(0px) scale(1);">
+          <svg viewBox ="0 0 180 60">
+              <path d="M10,10 C10,10 50,9.98999977 90,9.98999977 C130,9.98999977 170,10 170,10 C170,10 170.009995,20 170.009995,30 C170.009995,40 170,50 170,50 C170,50 130,50.0099983 90,50.0099983 C50,50.0099983 10,50 10,50 C10,50 9.98999977,40 9.98999977,30 C9.98999977,20 10,10 10,10 Z"></path>
+          </svg>
+          <span style="transform: scale(1);">events</span>
+        </a>
+        <a class =" button green" href="#" target="_blank" style="opacity: 1 transform: translateY(0px) scale(1);">
+          <svg viewBox ="0 0 180 60">
+              <path d="M10,10 C10,10 50,9.98999977 90,9.98999977 C130,9.98999977 170,10 170,10 C170,10 170.009995,20 170.009995,30 C170.009995,40 170,50 170,50 C170,50 130,50.0099983 90,50.0099983 C50,50.0099983 10,50 10,50 C10,50 9.98999977,40 9.98999977,30 C9.98999977,20 10,10 10,10 Z"></path>
+          </svg>
+          <span style="transform: scale(1);">coordinators</span>
+        </a>
+        <a class =" button blue" href="#" target="_blank" style="opacity: 1 transform: translateY(0px) scale(1);">
+          <svg viewBox ="0 0 180 60">
+              <path d="M10,10 C10,10 50,9.98999977 90,9.98999977 C130,9.98999977 170,10 170,10 C170,10 170.009995,20 170.009995,30 C170.009995,40 170,50 170,50 C170,50 130,50.0099983 90,50.0099983 C50,50.0099983 10,50 10,50 C10,50 9.98999977,40 9.98999977,30 C9.98999977,20 10,10 10,10 Z"></path>
+          </svg>
+          <span style="transform: scale(1);">signup</span>
+        </a>
+      </div>
+      <p class="credits" style="opacity: 1; transform: translateY(0px) scale(1);">
+        <span class="version"></span> <span class="date"></span> <a href="#" target="_blank"></a>
+      </p>
+    </div>
+
+    <script>
+      document.getElementById("info").addEventListener("click", displayDate);
+      function displayDate() {
+        console.log("working");
+      }
+      </script>
 
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
+    <script src="node_modules/animejs/anime.js"></script>
     <script src="javaScript/particle.js"></script>
     <script src="javaScript/particlejson.json"></script>
     <script type="text/javascript" src="javaScript/main.js"></script>
+    <script type="text/javascript" src="javaScript/site.js"></script>
+    <script type="text/javascript" scr ="javaScript/button.js"></script>
 
 
 
