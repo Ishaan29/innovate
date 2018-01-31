@@ -114,10 +114,10 @@ body.ready { opacity: 1; }
 
 .icon-text {
   position: absolute;
-  top: 60px;
-  left: 60px;
-  width: 160px;
-  height: 62px;
+  top: 54px;
+  left: 69px;
+  width: 200px;
+  height: 88px;
 }
 
 .icon-text path,
