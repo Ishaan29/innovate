@@ -11,7 +11,7 @@ text-align: center;
 /* background-color: rgba(0,0,0,0.6); */
 /* background: transparent; */
 }
- a {
+ .footer a {
   float: left;
   margin: 25px 1px 10px 70px;
 
