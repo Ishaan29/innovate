@@ -1,80 +1,25 @@
-<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-<link rel="stylesheet" href="signup.css">
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="signup.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div id="form">
 
-<div class="container white z-depth-2">
-	<ul class="tabs teal">
-		<li class="tab col s3"><a class="white-text active" href="#login">login</a></li>
-		<li class="tab col s3"><a class="white-text" href="#register">register</a></li>
-	</ul>
-	<div id="login" class="col s12">
-		<form class="col s12">
-			<div class="form-container">
-				<h3 class="teal-text">Login</h3>
-				<div class="row">
-					<div class="input-field col s12">
-						<input id="email" type="email" class="validate">
-						<label for="email">Email</label>
-					</div>
-				</div>
-				<div class="row">
-					<div class="input-field col s12">
-						<input id="password" type="password" class="validate">
-						<label for="password">Password</label>
-					</div>
-				</div>
-				<br>
-				<center>
-					<button class="btn waves-effect waves-light teal" type="submit" name="action">Connect</button>
-					<br>
-					<br>
-					<a href="">Forgotten password?</a>
-				</center>
-			</div>
-		</form>
-	</div>
-	<div id="register" class="col s12">
-		<form class="col s12">
-			<div class="form-container">
-				<h3 class="teal-text">Welcome</h3>
-				<div class="row">
-					<div class="input-field col s6">
-						<input id="last_name" type="text" class="validate">
-						<label for="last_name">First Name</label>
-					</div>
-					<div class="input-field col s6">
-						<input id="last_name" type="text" class="validate">
-						<label for="last_name">Last Name</label>
-					</div>
-				</div>
-				<div class="row">
-					<div class="input-field col s12">
-						<input id="email" type="email" class="validate">
-						<label for="email">Email</label>
-					</div>
-				</div>
-				<div class="row">
-					<div class="input-field col s12">
-						<input id="email-confirm" type="email" class="validate">
-						<label for="email-confirm">Email Confirmation</label>
-					</div>
-				</div>
-				<div class="row">
-					<div class="input-field col s12">
-						<input id="password" type="password" class="validate">
-						<label for="password">Password</label>
-					</div>
-				</div>
-				<div class="row">
-					<div class="input-field col s12">
-						<input id="password-confirm" type="password" class="validate">
-						<label for="password-confirm">Password Confirmation</label>
-					</div>
-				</div>
-				<center>
-					<button class="btn waves-effect waves-light teal" type="submit" name="action">Submit</button>
-				</center>
-			</div>
-		</form>
-	</div>
-</div>
+                <div id="logInfo">
+                    <input name="email" type="text" placeholder="Email">
+                    <input name="password" type="password" placeholder="Password">
+                </div>
+                <button id="submit">Login</button>
+                <div id="err">
+                        <p id="errNoUser">Wrong email or password</p>
+                        <p id="errServ">Server error, try again</p>
+                        <p id="errUser">All fields are important</p>
+                        <p id="loading">Loading...</p>
+                </div>
+                <p id="message">Not registered? <a href="signup.html">Create an account</a></p>
+            </div>
+  </body>
+</html>
