@@ -59,14 +59,14 @@ var pJS = function(tag_id, params){
         random: false,
         anim: {
           enable: false,
-          speed: 20,
+          speed: 10,
           size_min: 0,
           sync: false
         }
       },
       line_linked: {
         enable: true,
-        distance: 100,
+        distance: 1,
         color: '#fff',
         opacity: 1,
         width: 1
