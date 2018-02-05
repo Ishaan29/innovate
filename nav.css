@@ -1,9 +1,7 @@
-/* body {
-  background: #10192d;
-} */
-/* #ip{
-  font-size: .8rem !important;
-} */
+
+.nav-wrapper {
+  background: transparent !important;
+}
 .nav-wrapper a {
   position: fixed;
   cursor: pointer;
