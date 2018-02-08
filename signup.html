@@ -2,19 +2,23 @@
 <html>
   <head>
     <link rel="stylesheet" href="signup.css">
-<<<<<<< HEAD
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
-=======
+
     <link rel="stylesheet" href="CSS/index.css">
     <link rel="stylesheet" href="CSS/particle.css">
     <meta charset="utf-8">
->>>>>>> 7d929c3c9766ad00388127e388c4ee7709bf69f9
+
     <title></title>
   </head>
   <body>
     <div id="particles-js" style="overflow: hidden; overflow-y:hidden;">
         <canvas class="particles-js-canvas-el" width="3360" height="1102" style="width: 100%; height: 100%;"></canvas>
     </div>
+    <div class="navSelf">
+
+    </div>
+
+
     <div id="form">
 
                 <div id="logInfo">
@@ -30,6 +34,14 @@
                 </div>
                 <p id="message">Not registered? <a href="signup.html">Create an account</a></p>
             </div>
+            <div class="footerSelf">
+
+            </div>
+            <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+          <script type="text/javascript">
+            $(".navSelf").load("nav.html");
+            $(".footerSelf").load("footer.html");
+          </script>
             <script src="javaScript/particle.js"></script>
             <script src="javaScript/particlejson.json"></script>
   </body>

@@ -2,3 +2,10 @@
   margin-top: 150px;
   opacity: 0.8;
 }
+
+.container img:hover {
+
+}
+.row {
+  margin-top: 5%;
+}
