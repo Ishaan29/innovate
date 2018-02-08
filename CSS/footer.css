@@ -1,27 +1,24 @@
 .footer {
 background: transparent;
 position: fixed;
-left: 35%;
+margin-top: 13%;
+left: 33%;
+margin: auto;
 bottom: 0;
+/* margin-left: auto; */
 height: 110px;
 width: 100%;
 color: black;
-text-align: center;
-/* opacity: 0.9; */
-/* background-color: rgba(0,0,0,0.6); */
-/* background: transparent; */
+/* text-align:center; */
 }
 
 .footer a {
-
- .footer a {
-
-  float: left;
-  margin: 25px 1px 10px 70px;
-
-
+float: left;
+margin: 25px 1px 10px 70px;
 }
 
-/* body {
-  background-color: blue ;
-} */
+@media only screen and (max-width: 870px) {
+  .footer a {
+   visibility: hidden;
+  }
+}

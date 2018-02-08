@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/index.css">
     <link rel="stylesheet" href="CSS/particle.css">
     <link rel="stylesheet" href="CSS/animated.css">
     <link rel="stylesheet" href="CSS/footer.css">
-    <link rel="stylesheet" href="CSS/navbarSelf.css">
+    <!-- <link rel="stylesheet" href="CSS/navbarSelf.css"> -->
 
     <script type = "text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
 
@@ -239,12 +239,6 @@
       </script>
 
 
-  <div class="footer">
-  <a href="http://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true" style="font-size: 40px; color:white"></i></a>
-  <a href="http://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true" style="font-size: 40px; color:white"></i></a>
-  <a href="http://www.twitter.com"><i class="fa fa-twitter" aria-hidden="true" style="font-size: 40px; color:white"></i></a>
-  <a href="http://www.youtube.com"><i class="fa fa-youtube-play" aria-hidden="true" style="font-size: 40px; color:white"></i></a>
-  </div>
 
   <script>
   $(document).ready(function() {
@@ -285,7 +279,14 @@
 
     </div>
 
+    <div class="footer">
+    <a href="http://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true" style="font-size: 40px; color:white"></i></a>
+    <a href="http://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true" style="font-size: 40px; color:white"></i></a>
+    <a href="http://www.twitter.com"><i class="fa fa-twitter" aria-hidden="true" style="font-size: 40px; color:white"></i></a>
+    <a href="http://www.youtube.com"><i class="fa fa-youtube-play" aria-hidden="true" style="font-size: 40px; color:white"></i></a>
+    </div>
 
+    <!-- <div class="footer2"></div> -->
 
 
     <script>
@@ -300,26 +301,23 @@
      $(".coordinators").click(function(){
        $(".links").fadeOut();
        $(".logo-animation").fadeOut();
-
-       $(".footer").fadeOut();
-
-
        $(".coordinators").load("coordinator.html");
-       $(".navbar").load("nav.html");
+       // $(".navbar").load("nav.html");
      })
      $(".signup").click(function(){
        $(".links").fadeOut();
        $(".logo-animation").fadeOut();
        $(".signup").load("signup.html");
-       $(".navbar").load("nav.html");
+       // $(".navbar").load("nav.html");
      })
      $(".events").click(function(){
        $(".links").fadeOut();
        $(".logo-animation").fadeOut();
        $(".events").load("events.html");
-       $(".navbar").load("nav.html");
-     })
+       // $(".navbar").load("nav.html");
 
+     })
+     // $(".footer2").load("footer2.html");
 
     </script>
 
