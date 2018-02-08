@@ -1,7 +1,7 @@
 .nav-wrapper a {
   position: fixed;
   cursor: pointer;
-  top: 3.9vh;
+  top: 3.5vh;
   /* left: 50%; */
   color: white;
   transform: translate3d(-50%, -50%, 0);
@@ -19,7 +19,7 @@
   transition: transform 0.4s cubic-bezier(0.2, 0, 0, 1) 0.4s;
 }
 .nav-wrapper a:after {
-  position: absolute;
+  /* position: absolute; */
   content: '';
   bottom: -3px;
   left: calc(0.7em * 1.2);
@@ -36,33 +36,33 @@
 }
 .nav-wrapper .line.-right, .line.-left {
   width: 3px;
-  bottom: -3px;
-  top: -3px;
+  bottom: -1px;
+  top: -1px;
   transform: scale3d(1, 0, 1);
 }
 .nav-wrapper .line.-top, .line.-bottom {
   height: 3px;
-  left: -3px;
-  right: -3px;
+  left: -1px;
+  right: -1px;
   transform: scale3d(0, 1, 1);
 }
 .nav-wrapper .line.-right {
-  right: -3px;
+  right: -1px;
   transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.23s;
   transform-origin: top;
 }
 .nav-wrapper .line.-top {
-  top: -3px;
+  top: -1px;
   transition: transform 0.08s linear 0.43s;
   transform-origin: left;
 }
 .nav-wrapper .line.-left {
-  left: -3px;
+  left: -1px;
   transition: transform 0.08s linear 0.51s;
   transform-origin: bottom;
 }
 .nav-wrapper .line.-bottom {
-  bottom: -3px;
+  bottom: -1px;
   transition: transform 0.3s cubic-bezier(1, 0, 0.65, 1.01);
   transform-origin: right;
 }
