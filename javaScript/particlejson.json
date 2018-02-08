@@ -19,7 +19,7 @@ particlesJS('particles-js',
           "color": "#000000"
         },
         "polygon": {
-          "nb_sides": 5
+          "nb_sides": 4
         },
         "image": {
           "src": "",
@@ -73,7 +73,7 @@ particlesJS('particles-js',
       "events": {
         "onhover": {
           "enable": true,
-          "mode": "repel"
+          "mode": "repulse"
         },
         "onclick": {
           "enable": true,
