@@ -1,3 +1,8 @@
+.nav-wrapper {
+  /* background-color: rgba(122, 0, 0,.62); */
+ background: linear-gradient(to left, #ff6600b0 2%, #4b008bd1 65%);
+ /* opacity: .6%; */
+}
 .nav-wrapper a {
   position: fixed;
   cursor: pointer;
@@ -9,7 +14,7 @@
   display: inline-block;
   border: 3px solid transparent;
   position: relative;
-  font-size: .8em;
+  /* font-size: .8em; */
   letter-spacing: 0.07em;
 }
 .nav-wrapper a .text {
@@ -32,37 +37,38 @@
 }
 .nav-wrapper .line {
   position: absolute;
-  background: #f26522;
+  background: #048653;
+  /* background: linear-gradient(to left, #ff6600 2%, #9900cc 65%); */
 }
 .nav-wrapper .line.-right, .line.-left {
-  width: 3px;
-  bottom: -1px;
-  top: -1px;
+  width: 4px;
+  bottom: 5px;
+  top: 1px;
   transform: scale3d(1, 0, 1);
 }
 .nav-wrapper .line.-top, .line.-bottom {
-  height: 3px;
-  left: -1px;
-  right: -1px;
+  height: 4px;
+    left: -2px;
+    right: -2px;
   transform: scale3d(0, 1, 1);
 }
 .nav-wrapper .line.-right {
-  right: -1px;
+  right: -2px;
   transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.23s;
   transform-origin: top;
 }
 .nav-wrapper .line.-top {
-  top: -1px;
+  top: -2px;
   transition: transform 0.08s linear 0.43s;
   transform-origin: left;
 }
 .nav-wrapper .line.-left {
-  left: -1px;
+  left: -2px;
   transition: transform 0.08s linear 0.51s;
   transform-origin: bottom;
 }
 .nav-wrapper .line.-bottom {
-  bottom: -1px;
+  bottom: 3px;
   transition: transform 0.3s cubic-bezier(1, 0, 0.65, 1.01);
   transform-origin: right;
 }
