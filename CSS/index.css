@@ -1,4 +1,6 @@
-html body {
+html body { -moz-transform: scale(0.9, 0.9); /* Moz-browsers */
+zoom: 0.9; /* Other non-webkit browsers */
+zoom: 90%; /* Webkit browsers */
   background: #10192d;
   width: 100%;
   height: 100%;

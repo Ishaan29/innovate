@@ -5,21 +5,21 @@
       <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css">
       <!-- Compiled and minified CSS -->
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" media = "screen, projection">
+       <link rel="stylesheet" href="materialize/css/materialize.css">
 
        <!-- Compiled and minified JavaScript -->
-       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-
+       <script src="materialize/js/materialize.js"></script>
+<script src="materialize/js/materialize.min.js"></script>
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <style media="screen">
-        nav{
+        /* nav{
          background-color: rgba(0, 121, 107,.8);
-          /* background-color: inherit; */
-        }
+          background-color: inherit;
+        } */
         .tt{
           margin: 5px 1px 10px 70px;
         }
@@ -30,9 +30,17 @@
     </head>
 
     <body>
-
+      <!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content">
+ <li><a href="#!">one</a></li>
+ <li><a href="#!">two</a></li>
+ <li class="divider"></li>
+ <li><a href="#!">three</a></li>
+</ul>
       <nav >
      <div class="nav-wrapper">
+
+</ul>
      <a href="index.html" class="brand-logo tt">Innovate</a>
      <ul id="nav-mobile" class="right hide-on-med-and-down">
        <li><a class="tt" href="aboutus.html"><span class="line -right"></span>
@@ -52,6 +60,10 @@
        <span class="line -left"></span>
        <span class="line -bottom"></span>signup</a></li>
 
+       <!-- Dropdown Trigger -->
+     <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+
+
      </ul>
      </div>
      </nav>
@@ -61,4 +73,11 @@
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
     </body>
+    <script>
+    $(document).ready(function(){
+      $(".dropdown-button").dropdown();
+    });
+
+    </script>
+
   </html>

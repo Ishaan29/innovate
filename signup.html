@@ -8,7 +8,14 @@
     <link rel="stylesheet" href="CSS/particle.css">
     <meta charset="utf-8">
 
-    <title></title>
+    <title>signup</title>
+    <style>
+    body {
+      -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
+      zoom: 0.8; /* Other non-webkit browsers */
+      zoom: 80%; /* Webkit browsers */
+  }
+    </style>
   </head>
   <body>
     <div id="particles-js" style="overflow: hidden; overflow-y:hidden;">
@@ -24,11 +31,11 @@
 
     <div id="form">
 
-                <!-- <div id="logInfo">
+                <div id="logInfo">
                     <input name="email" type="text" placeholder="Email">
                     <input name="password" type="password" placeholder="Password">
-                </div> -->
-                <button action="submit" submit = "https://goo.gl/forms/JT6jialOL6iArDN03" id="submit">Register</button>
+                </div>
+                <button action="submit" href = "#" id="submit">Login</button>
 
                 <div id="err">
                         <p id="errNoUser">Wrong email or password</p>
@@ -36,7 +43,7 @@
                         <p id="errUser">All fields are important</p>
                         <p id="loading">Loading...</p>
                 </div>
-                <!-- <p id="message">Not registered? <a href="https://goo.gl/forms/JT6jialOL6iArDN03"> Create an account </a></p> -->
+                <p id="message">Not registered? <a href="https://goo.gl/forms/JT6jialOL6iArDN03"> Create an account </a></p>
             </div>
             <div class="footerSelf">
 
