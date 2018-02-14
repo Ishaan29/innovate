@@ -12,7 +12,7 @@
 .nav-wrapper a {
   position: fixed;
   cursor: pointer;
-  top: 3.5vh;
+  top: 3.92vh;
   /* left: 50%; */
   color: white;
   transform: translate3d(-50%, -50%, 0);
