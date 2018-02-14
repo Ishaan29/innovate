@@ -18,3 +18,7 @@ button svg {
   fill-rule: evenodd;
   stroke: currentColor;
 }
+
+#ico{
+  width: 125px;
+}
