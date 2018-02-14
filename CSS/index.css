@@ -21,4 +21,12 @@ button svg {
 
 #ico{
   width: 125px;
+  /* transform: translate(-50px,60px) !important; */
+}
+
+#ico1{
+  top: 27px;
+  left: 94px;
+  width: 319px;
+
 }
