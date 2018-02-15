@@ -10,10 +10,14 @@
 
     <title>signup</title>
     <style>
-    body {
+  .form  body {
       -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
       zoom: 0.8; /* Other non-webkit browsers */
       zoom: 80%; /* Webkit browsers */
+  }
+
+  #logInfo p {
+    padding-bottom: 8%;
   }
     </style>
   </head>
@@ -32,10 +36,12 @@
     <div id="form">
 
                 <div id="logInfo">
-                    <input name="email" type="text" placeholder="Email">
-                    <input name="password" type="password" placeholder="Password">
+                    <!-- <input name="email" type="text" placeholder="Email"> -->
+                    <p>FOR REGISTRATIONS</p>
                 </div>
-                <button action="submit" href = "#" id="submit">Login</button>
+                <button onclick="window.location.href='https://goo.gl/forms/SyER9GpjCoeiEyKt2'" id="submit">Internal</button>
+
+                <button onclick="window.location.href='https://goo.gl/forms/OsYLwe02cEcvCe6h2'" id="submit">External</button>
 
                 <div id="err">
                         <p id="errNoUser">Wrong email or password</p>
@@ -43,7 +49,7 @@
                         <p id="errUser">All fields are important</p>
                         <p id="loading">Loading...</p>
                 </div>
-                <p id="message">Not registered? <a href="https://goo.gl/forms/JT6jialOL6iArDN03"> Create an account </a></p>
+                <!-- <p id="message"></p> -->
             </div>
             <div class="footerSelf">
 

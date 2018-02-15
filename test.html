@@ -1,59 +1,65 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-    font-family: "Lato", sans-serif;
-} -->
+  <head>
+    <meta charset="utf-8">
+    <title>Registration</title>    <link rel="stylesheet" href="CSS/index.css">
+        <link rel="stylesheet" href="CSS/particle.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" media="screen, projection">
+<style media="screen">
+.card {
+max-width: 500px;
+margin:auto;
+margin-top: 15%;
+opacity: 0.8;
+font-family: 'Kavivanar', cursive;
+text-align: center !important;
+      }
+.card-content span {
+  border-bottom: 4px solid #01839d;
+  text-transform: uppercase;
+}
+.card-content a {
+  color: white;
+  border: 2px solid #01839d;
+  border-radius: 5px;
+/* margin: 10px; */
+  font-size: 20px;
+  text-align: center !important;
 
-.sidenav {
-    width: 130px;
-    position: fixed;
-    z-index: 1;
-    top: 20px;
-    left: 10px;
-    background: #eee;
-    overflow-x: hidden;
-    padding: 8px 0;
+}
+.card-content {
+  background-color: white;
+}
+.one {
+  padding-right: 386px;
+  background-color: black;
+}
+.two {
+  padding-right: 380px;
+  background-color: black;
+  text-align: center;
 }
 
-.sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #2196F3;
-    display: block;
-}
 
-.sidenav a:hover {
-    color: #064579;
-}
+</style>
 
-.main {
-    margin-left: 140px; /* Same width as the sidebar + left position in px */
-    font-size: 28px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
-}
-
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-}
-<!-- </style>
-</head>
-<body>
-
- <div class="sidenav">
-  <a href="#about">About</a>
-  <a href="#services">Services</a>
-  <a href="#clients">Clients</a>
-  <a href="#contact">Contact</a>
-</div>
-
-<div class="main">
-  <h2>Auto Sidebar</h2> -->
-
-
-<!-- </body>
-</html> --> -->
+  </head>
+  <body>
+    <div id="particles-js">
+        <canvas class="particles-js-canvas-el" width="3360" height="1102" style="width: 100%; height: 100%;"></canvas>
+    </div>
+    <div class="card">
+  <div class="card-image waves-effect waves-block waves-light">
+    <img class="activator" src="assets/Register.jpg">
+  </div>
+  <div class="card-content ">
+    <span class="card-title activator black-text text-darken-4">For Registrations </span>
+    <p><a class="one" href="#">Internal</a></p>
+    <p><a class="two" href="#">External</a></p>
+  </div>
+</div><script src="javaScript/particle.js"></script>
+<script src="javaScript/particlejson.json"></script>
+  </body>
+</html>
