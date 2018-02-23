@@ -8,41 +8,27 @@
     <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" media="screen, projection">
 <style media="screen">
-.card {
-max-width: 500px;
-margin:auto;
-margin-top: 15%;
-opacity: 0.8;
-font-family: 'Kavivanar', cursive;
-text-align: center !important;
-      }
-.card-content span {
-  border-bottom: 4px solid #01839d;
-  text-transform: uppercase;
-}
-.card-content a {
-  color: white;
-  border: 2px solid #01839d;
-  border-radius: 5px;
-/* margin: 10px; */
-  font-size: 20px;
-  text-align: center !important;
 
+.color {
+  background-color: inherit;
 }
-.card-content {
-  background-color: white;
+.main {
+  height: 500px;
+  /* margin-top:40%; */
 }
-.one {
-  padding-right: 386px;
-  background-color: black;
-}
-.two {
-  padding-right: 380px;
-  background-color: black;
-  text-align: center;
+.main img {
+  height: 300px;
 }
 
-
+.small {
+  margin-top: 56%;
+  /* margin: 20px; */
+  /* width: 150px; */
+   height: 230px;
+}
+.small img {
+  height: 190px;
+}
 </style>
 
   </head>
@@ -50,16 +36,76 @@ text-align: center !important;
     <div id="particles-js">
         <canvas class="particles-js-canvas-el" width="3360" height="1102" style="width: 100%; height: 100%;"></canvas>
     </div>
-    <div class="card">
-  <div class="card-image waves-effect waves-block waves-light">
-    <img class="activator" src="assets/Register.jpg">
+
+<div class="container">
+<div class="row">
+   <div class="col s4 color">
+     <div class="card main">
+   <div class="card-image waves-effect waves-block waves-light">
+     <img class="activator" src="assets/WIC.jpg">
+   </div>
+   <div class="card-content">
+     <span class="card-title activator grey-text text-darken-4">Game Of Drones<i class="material-icons right">more_vert</i></span>
+     <!-- <p><a href="#">This is a link</a></p> -->
+   </div>
+   <div class="card-reveal">
+     <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+     <p>Event Details :- In this event the participants
+ have to make a drawing of the building plan
+ for the given plot area on a chart paper on
+ the spot .The material for the event(pencils,
+ A4 paper, etc.) will be provided.
+ </p>
+   </div>
+ </div>
+   </div>
+   <div class="col s3 color">
+     <div class="card small">
+   <div class="card-image waves-effect waves-block waves-light">
+     <img class="activator" src="assets/WIC.jpg">
+   </div>
+   <div class="card-content">
+     <span class="card-title activator grey-text text-darken-4">Game Of Drones<i class="material-icons right">more_vert</i></span>
+     <!-- <p><a href="#">This is a link</a></p> -->
+   </div>
+   <div class="card-reveal">
+     <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+     <p>Event Details :- In this event the participants
+  have to make a drawing of the building plan
+  for the given plot area on a chart paper on
+  the spot .The material for the event(pencils,
+  A4 paper, etc.) will be provided.
+  </p>
+   </div>
   </div>
-  <div class="card-content ">
-    <span class="card-title activator black-text text-darken-4">For Registrations </span>
-    <p><a class="one" href="#">Internal</a></p>
-    <p><a class="two" href="#">External</a></p>
+   </div>
+   <div class="col s3 color">
+     <div class="card small">
+   <div class="card-image waves-effect waves-block waves-light">
+     <img class="activator" src="assets/WIC.jpg">
+   </div>
+   <div class="card-content">
+     <span class="card-title activator grey-text text-darken-4">Game Of Drones<i class="material-icons right">more_vert</i></span>
+     <!-- <p><a href="#">This is a link</a></p> -->
+   </div>
+   <div class="card-reveal">
+     <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+     <p>Event Details :- In this event the participants
+  have to make a drawing of the building plan
+  for the given plot area on a chart paper on
+  the spot .The material for the event(pencils,
+  A4 paper, etc.) will be provided.
+  </p>
+   </div>
   </div>
-</div><script src="javaScript/particle.js"></script>
+   </div>
+   <div class="col s2 color">4</div>
+   <!-- <div class="col s2 color">5</div> -->
+
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script src="javaScript/particle.js"></script>
 <script src="javaScript/particlejson.json"></script>
   </body>
 </html>
