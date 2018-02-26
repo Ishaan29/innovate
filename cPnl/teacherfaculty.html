@@ -10,7 +10,6 @@
  <link rel="stylesheet" href="CSS/particle.css">
  <link rel="stylesheet" href="CSS/teacherfaculty.css">
  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
- <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
  <style media="screen">
 #Retti,#Mohan {
   width: 300px;
@@ -19,13 +18,13 @@ margin-left: 100px;
 }
 .main #Retti img,#Mohan img {
   height: 250px;
-  width: 267px;
+ /* width: 267px; */
 }
 .card .card-content{
   padding: 17px !important;
 }
  </style>
-<script type="text/javascript" src="../jquery.fullPage.js"></script>
+
   </head>
   <body>
     <div id="particles-js" style="overflow: hidden">
@@ -36,59 +35,55 @@ margin-left: 100px;
 
       <div class="sidenav">
         <a href="#about"></a>
-        <a href="#con">Conveners</a>
-        <a href="#fac">Faculty Incharges</a>
-        <a href="#contact">Student Incharges</a>
+        <a href="#Conveners">Conveners</a>
+        <a href="#faculty">Faculty Coordinators</a>
+        <a href="#contact">Student Coordinators</a>
       </div>
-
-      <div id="wrapper" class="main">
+      <div class="main">
 <div class="container">
 <div class="border">
-  <div class="section">
-    <div id="con" class="row">
+  <div class="row">
 
-      <div  class="mainTitle">
-        <p  style="color: white;">Conveners</p>
-      </div>
+    <div id="Conveners" class="mainTitle">
+      <p  style="color: white;">Conveners</p>
+    </div>
 
-        <!-- <div class="col s12">This div is 12-columns wide on all screen sizes</div> -->
-        <div class="col s6 ">
-          <div class="card" id="Mohan">
-              <div class="card-image">
-                <img src="images/sample-1.jpg">
-                <span class="card-title">Card Title</span>
-              </div>
-              <div class="card-content">
-                <p>M Mohan</p>
-              </div>
+      <!-- <div class="col s12">This div is 12-columns wide on all screen sizes</div> -->
+      <div class="col s6 ">
+        <div class="card" id="Mohan">
+            <div class="card-image">
+              <img src="images/sample-1.jpg">
+              <span class="card-title">Card Title</span>
+            </div>
+            <div class="card-content">
+              <p>M Mohan</p>
+            </div>
 
-            </div></div>
-        <div class="col s6 ">
-          <div class="card" id="Retti">
-              <div class="card-image">
-                <img src="assets/MrsReetiKulshreshtha.png">
-                <span class="card-title"></span>
-              </div>
-              <div class="card-content">
-                <p>Reeti ma'am</p>
-              </div>
+          </div></div>
+      <div class="col s6 ">
+        <div class="card" id="Retti">
+            <div class="card-image">
+              <img src="assets/reeti.jpg">
+              <span class="card-title"></span>
+            </div>
+            <div class="card-content">
+              <p>Reeti ma'am</p>
+            </div>
 
-            </div></div>
-      </div>
-  </div>
-
- <div id="fac" class="row">
-   <div  class="mainTitle">
-<p  style="color: white;">Faculty Incharges</p>
-</div>
+          </div></div>
+    </div>
+ <div class="row">
+<div id="faculty" class="mainTitle">
+     <p  style="color: white;">Faculty Coordinators</p>
+   </div>
    <div class="col s12 m6 l3"><p>
       <div class="row">
-
+          
          <div class="col s12 m7 hey">
            <div class="card">
              <div class="card-image">
                <img src="assets/MrAkhtar.png">
-               <span class="card-title">Name</span>
+               <span class="card-title">Mr Akhtar</span>
              </div>
              <div class="card-content">
                <p>Information
@@ -417,9 +412,6 @@ margin-left: 100px;
 <script type="text/javascript">
 $(".navSelf").load("nav.html");
 $(".footerSelf").load("footer.html");
-$(document).ready(function(){
-  $('#wrapper').fullpage();
-});
 </script>
 <script src="javaScript/particle.js"></script>
 <script src="javaScript/particlejson.json"></script>

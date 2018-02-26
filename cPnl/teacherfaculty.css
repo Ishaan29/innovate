@@ -9,15 +9,7 @@
     background: #eee;
     overflow-x: hidden;
     padding: 8px 0;
-    /* font-size: 1em; */
     background-color: transparent;
-}
-.mainTitle p{
-  font-size: 25px;
-  font-family: 'Ubuntu', sans-serif;
-  color: white;
-  display: block;
-  text-decoration: underline;
 }
 
 .sidenav a {
@@ -50,7 +42,7 @@
   /* transition: box-shadow 1s; */
 
 }
-.main img {
+img {
   height: 200px;
 }
 .card:hover {
